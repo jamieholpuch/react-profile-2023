@@ -1,0 +1,9 @@
+.navigation {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #490B3D;
+}
+
+.navbar-nav {
+    text-align: right;
+}

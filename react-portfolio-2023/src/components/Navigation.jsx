@@ -1,19 +1,21 @@
-export default function Nav() {
-    const linkStyle = { border: '1px black', padding: '5px' };
-  
-    return (
-      <Tabs
-      value={value}
-      onChange={handleChange}
-      textColor="secondary"
-      indicatorColor="secondary"
-      aria-label="secondary tabs example"
-    >
-      <Tab value="about" label="About Me" />
-      <Tab value="projects" label="My Projects" />
-      <Tab value="resume" label="My Resume" />
-      <Tab value="contact" label="Get in Touch" />
-    </Tabs>
-    );
-  }
-  
+import "../styles/navigation.css";
+
+function Navigation() {
+  return (
+    <div className="navigation">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light nav-tabs">
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+         <div className="navbar-nav">
+         <a className="nav-item nav-link" href="#About">about me</a>
+            <a className="nav-item nav-link" href="#Portfolio">porfolio</a>
+            <a className="nav-item nav-link" href="#">resume</a>
+            <a className="nav-item nav-link" href="#Contact">get in touch</a>
+         </div>
+         
+        </div>
+      </nav>
+    </div>
+  );
+}
+
+export default Navigation;

@@ -1,10 +1,12 @@
-import '../styles/Header.css';
+import '../styles/header.css';
 
 function Header() {
   return (
-    <header className="header">
-      <h1>Home</h1>
-    </header>
+    <div>
+        <header className="header">
+            <img className="hero" src="../src/assets/Home.png" alt="homepage hero image" />
+        </header>
+    </div>
   );
 }
 

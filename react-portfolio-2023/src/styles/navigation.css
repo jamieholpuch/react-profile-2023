@@ -1,9 +1,9 @@
-.navigation {
+.nav {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-    color: #490B3D;
 }
 
-.navbar-nav {
-    text-align: right;
+a {
+    /* text-decoration: none !important; */
+    color: #BD1E51 !important;
 }

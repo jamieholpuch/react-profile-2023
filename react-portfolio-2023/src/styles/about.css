@@ -1,0 +1,32 @@
+.about {
+    background-color: #BD1E51;
+    padding-bottom: 200px;
+}
+
+.about-header {
+    font-size: 54px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.about-text {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-img {
+    border-radius: 50%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    width: 50%;
+}

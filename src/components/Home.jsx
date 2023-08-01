@@ -1,11 +1,12 @@
 import "../styles/home.css";
+import home from "../assets/Home.png"
 
 export default function Home() {
     return (
             <div>
                 <header className="header">
                 <a href="#contact">
-                    <img className="hero" src="../src/assets/Home.png" alt="homepage hero image" />
+                    <img className="hero" src={home} alt="homepage hero image" />
                     </a>
                 </header>
                 <footer className="footer">

@@ -1,4 +1,5 @@
 import '../styles/navigation.css'
+import resume from '../assets/Resume.pdf'
 
 export default function Navigation({ currentPage, handlePageChange}) {
   return (
@@ -36,7 +37,7 @@ export default function Navigation({ currentPage, handlePageChange}) {
       </li>
       <li className="nav-item">
         <a
-          href="../src/assets/Resume.pdf"
+          href={resume}
           target="_blank"
           onClick={() => handlePageChange('Resume')}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link

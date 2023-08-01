@@ -1,4 +1,11 @@
 import "../styles/project.css";
+import BootcampSims from "../assets/BootcampSims.png"
+import FeedMe from "../assets/FeedMe.png"
+import JATE from "../assets/JATE.png"
+import NoteTaker from "../assets/NoteTaker.png"
+import WeatherDashboard from "../assets/WeatherDashboard.png"
+import Workday from "../assets/Workday.png"
+
 function Project() {
   return (
     <div className="project">
@@ -11,7 +18,7 @@ function Project() {
           <div className="card">
           <a href="https://sleepy-bastion-85660-296a6fa2f982.herokuapp.com/">
             <img
-              src="../src/assets/FeedMe.png"
+              src={FeedMe}
               className="card-img-top"
               alt="..."
             />
@@ -25,7 +32,7 @@ function Project() {
           <div className="card">
           <a href="https://github.com/jamieholpuch/work-day-scheduler">
             <img
-              src="../src/assets/Workday.png"
+              src={Workday}
               className="card-img-top"
               alt="..."
             />
@@ -39,7 +46,7 @@ function Project() {
           <div className="card">
             <a href="https://github.com/jamieholpuch/pwa-text-editor">
               <img
-                src="../src/assets/JATE.png"
+                src={JATE}
                 className="card-img-top"
                 alt="..."
               />
@@ -53,7 +60,7 @@ function Project() {
           <div className="card">
           <a href="https://github.com/jamieholpuch/weather-dashboard">
             <img
-              src="../src/assets/WeatherDashboard.png"
+              src={WeatherDashboard}
               className="card-img-top"
               alt="..."
             />
@@ -67,7 +74,7 @@ function Project() {
           <div className="card">
           <a href="https://github.com/jamieholpuch/projectone_girlpowervibes">
             <img
-              src="../src/assets/BootcampSims.png"
+              src={BootcampSims}
               className="card-img-top"
               alt="..."
             />
@@ -81,7 +88,7 @@ function Project() {
           <div className="card">
           <a href="https://github.com/jamieholpuch/note-taker">
             <img
-              src="../src/assets/NoteTaker.png"
+              src={NoteTaker}
               className="card-img-top"
               alt="..."
             />

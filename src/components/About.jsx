@@ -1,5 +1,5 @@
 import '../styles/about.css'
-import headshot from '../assets/headshot.JPG'
+import headshot from '../assets/headshot_2.jpg'
 
 export default function About() {
     return (
